@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/contact")
-@CrossOrigin(origins = "https://www.budgetandbrains.com")
+@CrossOrigin(origins = "https://www.budgetandbrains.com/contact", allowCredentials = "true")
 public class AuditController {
 
     @Autowired
